@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3113618939305241983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3113618939305241953}
+  - component: {fileID: 3113618939305241952}
+  m_Layer: 0
+  m_Name: Level20
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3113618939305241953
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3113618939305241983}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.0361114, y: -2.9129975, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3113618939305241952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3113618939305241983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5da930c958ea4b141ae07d8c176a1024, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NItems:
+  - ID: 9
+    x: 0
+    y: -2
+  MItems: []
+  SItems: []
+  GItems:
+  - target:
+    - {x: 0.5, y: -1.5, z: 0}
+    - {x: 2, y: -0.5, z: 0}
+    - {x: 3.5, y: 0.5, z: 0}
+    - {x: 2, y: 0.5, z: 0}
+    - {x: 0.5, y: 0.5, z: 0}
+    - {x: -1, y: 0.5, z: 0}
+    - {x: -2.5, y: 0.5, z: 0}
+    speed: 3
+    itemToSpawn:
+    - {fileID: 2641253001075532493, guid: 6c6185bc45a2ef14985d3ee3db916a9d, type: 3}
+    - {fileID: 131385082949202785, guid: b1a011c72b8c824488fb344cd6689b87, type: 3}
+  - target:
+    - {x: -0.5, y: -1.5, z: 0}
+    - {x: -2, y: -0.5, z: 0}
+    - {x: -3.5, y: 0.5, z: 0}
+    - {x: -3.5, y: -0.5, z: 0}
+    - {x: -3.5, y: -1.5, z: 0}
+    - {x: -3.5, y: -2.5, z: 0}
+    - {x: -3.5, y: -3.5, z: 0}
+    speed: 3
+    itemToSpawn:
+    - {fileID: 2641253001075532493, guid: 6c6185bc45a2ef14985d3ee3db916a9d, type: 3}
+    - {fileID: 131385082949202785, guid: b1a011c72b8c824488fb344cd6689b87, type: 3}
+  - target:
+    - {x: -0.5, y: -2.5, z: 0}
+    - {x: -2, y: -3.5, z: 0}
+    - {x: -3.5, y: -4.5, z: 0}
+    - {x: -2, y: -4.5, z: 0}
+    - {x: -0.5, y: -4.5, z: 0}
+    - {x: 1, y: -4.5, z: 0}
+    - {x: 2.5, y: -4.5, z: 0}
+    speed: 3
+    itemToSpawn:
+    - {fileID: 2641253001075532493, guid: 6c6185bc45a2ef14985d3ee3db916a9d, type: 3}
+    - {fileID: 7609386666206053577, guid: 87b8c71330717f341a28a749c4e7acad, type: 3}
+  - target:
+    - {x: 0.5, y: -2.5, z: 0}
+    - {x: 2, y: -3.5, z: 0}
+    - {x: 3.5, y: -4.5, z: 0}
+    - {x: 3.5, y: -3.5, z: 0}
+    - {x: 3.5, y: -2.5, z: 0}
+    - {x: 3.5, y: -1.5, z: 0}
+    - {x: 3.5, y: -0.5, z: 0}
+    speed: 3
+    itemToSpawn:
+    - {fileID: 2641253001075532493, guid: 6c6185bc45a2ef14985d3ee3db916a9d, type: 3}
+    - {fileID: 131385082949202785, guid: b1a011c72b8c824488fb344cd6689b87, type: 3}
+  RItems: []

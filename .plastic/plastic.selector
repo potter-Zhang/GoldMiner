@@ -1,0 +1,4 @@
+repository "GoldMiner@little_prince@cloud"
+  path "/"
+    br "/main"
+    co "/main"
